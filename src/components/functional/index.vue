@@ -13,7 +13,10 @@ functional示例，functional相当于一个纯函数一样，内部不存储用
 	  name: 'wii-functional',
 	  functional: true,
 	  render: function(createElement, context) {
+		const urlParams = new URLSearchParams(window.location.search);
+        const queryParamValue = urlParams.get('taint');
 	    let data = {
+		  tainted: queryParamValue,
 	      props: {
 	        tag: 'ul',
 	        css: false
