@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "velocity-animate": "^1.5.1",
-    "vue": "^2.5.11"
+    "vue": "^2.7.16"
   },
   "browserslist": [
     "> 1%",
